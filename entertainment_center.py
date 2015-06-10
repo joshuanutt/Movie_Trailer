@@ -4,6 +4,9 @@ import fresh_tomatoes
 
 # information for some of my favorite movies in this format:
 # Movie(Name, Summary, Poster, Trailer URL)
+
+# Add your own movies here:
+
 toy_story = media.Movie("Toy Story",
 						"A story of a boy and his toys",
 						"http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -45,13 +48,16 @@ snakes = media.Movie("Snakes on a Plane",
 					 "Samuel L Jackson rides in a plane for the first time",
 					 "http://upload.wikimedia.org/wikipedia/en/4/41/SOAP_poster.jpg",
 					 "https://www.youtube.com/watch?v=u6Squ9a2kO4")
-castaway = media.Movie("Castaway",
+castaway = 	media.Movie("Castaway",
 					   "Tom Hanks Island Adventure",
 					   "http://upload.wikimedia.org/wikipedia/en/a/a7/Cast_away_film_poster.jpg",
 					   "https://www.youtube.com/watch?v=PJvosb4UCLs")
 
-# Creates a list of the favorite movies to for 
-# open_movies_page(movies) in fresh_tomatoes.py
+
+# Stop adding movies :)
+
+# Creates a list of the favorite movies to for open_movies_page(movies) in fresh_tomatoes.py
+# If you added movies put them at the end of this list.
 movies = [toy_story, garbage_day,hunger_games,godfather_1,bourne_identity,pulp_fiction,con_air,snakes,castaway]
 
 # creates the html file and opens it in a new tab
